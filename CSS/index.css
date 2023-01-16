@@ -1,7 +1,6 @@
 body {
+    background-color: #5F7497;
     background-image: url('../img/bakgrund.png');
-}
-
-.test {
-    height: 1500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
