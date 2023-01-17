@@ -8,21 +8,21 @@
     src: url('../font/MyriadPro-Bold.otf');
 }
 
-
-body {
-    background-color: #5F7497;
-    background-image: url('../img/bakgrund.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
+body{
+background-image: url('../img/bakgrund.png');
+background-size: 100%;
+background-repeat: no-repeat;
 }
+
 .p1 {
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
+font-family: "Lucida Console", "Courier New", monospace;
+}
 
-  .p2{
-    font-family: 'Times New Roman', Times, serif;
+.p2{
+font-family: 'Times New Roman', Times, serif;
 
-  }
+}
+  
 
 
  
