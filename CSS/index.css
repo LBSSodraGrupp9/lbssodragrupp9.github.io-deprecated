@@ -19,7 +19,7 @@ body {
  #menuToggle
  {
    display: block;
-   position: fixed;
+   position: absolute;
    top: 38%;
    left: 1.5%;
    
