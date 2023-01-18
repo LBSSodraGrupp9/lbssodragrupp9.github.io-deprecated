@@ -193,14 +193,4 @@
         color: rgb(255, 255, 255);
         transform: rotateY(180deg);
       }
-      .container, .flip-card, .flip-card2, .flip-card3{
-        margin:auto;
-    }
-      .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-
-      }
       
