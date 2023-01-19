@@ -9,12 +9,26 @@
 }
 
 
-body {
-    background-color: #5F7497;
-    background-image: url('../img/bakgrund.png');
-    background-size: 100%;
-    background-repeat: no-repe
-    at;
+body{
+  margin:0;
+  overflow-x:hidden;
+  background-color: #5F7497;
+  background-repeat: no-repeat;
+}
+
+#body1 {
+  background-image: url('../img/BG1.jpg');
+  background-size: 100%;
+}
+
+#body2 {
+  background-image: url('../img/BG2.jpg');
+  background-size: 100%;
+}
+
+#body3 {
+  background-image: url('../img/BG3.png');
+  background-size: 100%;
 }
  
  #menuToggle
@@ -159,12 +173,6 @@ body {
  {
    transform: none;
  }  
-
- body{
-  margin:0;
-  overflow-x:hidden;
-  
-  }
   
   .footer{
   background:#45474A;
