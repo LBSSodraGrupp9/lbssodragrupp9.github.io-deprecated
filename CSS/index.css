@@ -172,7 +172,7 @@ body {
   text-align:center;
   box-sizing: border-box;  
   height: 150px; 
-  width:100%;
+  width:1600px;
   
 
   }
@@ -235,4 +235,15 @@ body {
 .introtext{
     font-size: 125%;
     width: 500px; 
+}
+@media (aspect-ratio: 4/3) {
+    /* styles for 4:3 aspect ratio */
+}@media (device-aspect-ratio: 16/9) {
+    /* styles for 16:9 aspect ratio */
+}
+@media (resolution: 150dpi) {
+    /* styles for screens with 150dpi resolution */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* styles for screens between 768px and 1024px */
 }
