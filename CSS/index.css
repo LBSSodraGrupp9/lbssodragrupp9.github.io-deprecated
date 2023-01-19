@@ -13,7 +13,8 @@ body {
     background-color: #5F7497;
     background-image: url('../img/bakgrund.png');
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repe
+    at;
 }
  
  #menuToggle
@@ -167,19 +168,22 @@ body {
   
   .footer{
   background:#45474A;
-  padding:10px 0px;
   font-family: 'Play', sans-serif;
   text-align:center;
-  margin-top: 50%;
+  box-sizing: border-box;  
+  height: 150px; 
+  width:1600px;
+  
 
   }
   
+  
+  
   .footer .row{
-  width:100%;
-  margin:0.5% 0%;
   padding:0.6% 0%;
   color:gray;
   font-size:0.8em;
+  
   }
   
   .footer .row a{
@@ -220,3 +224,15 @@ body {
   margin:0% 3%;
   }
   }
+
+.rubrik{
+    font-family: 'Bebas Kai';
+    src: url('../font/BebasKai.otf');
+    float: left;
+    color: white;
+    font-size: 525%;
+}
+.introtext{
+    font-size: 125%;
+    width: 500px; 
+}

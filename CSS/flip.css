@@ -7,6 +7,9 @@
     float:left;
     margin:1%;
     padding:1%;
+    display: flex;
+    justify-content: center; /* centers the elements horizontally */
+    align-items: center; /* centers the elements vertically */
 
   }
 
@@ -71,6 +74,9 @@
     float:left;
     margin:1%;
     padding:1%;
+    display: flex;
+    justify-content: center; /* centers the elements horizontally */
+    align-items: center; /* centers the elements vertically */
 
   }
 
@@ -130,10 +136,12 @@
         height: 254px;
         perspective: 1000px;
         font-family: sans-serif;
-        float:right;
+        float:left;
         margin:1%;
         padding:1%;
-
+        display: flex;
+        justify-content: center; /* centers the elements horizontally */
+        align-items: center; /* centers the elements vertically */
     
         
       }
@@ -185,3 +193,4 @@
         color: rgb(255, 255, 255);
         transform: rotateY(180deg);
       }
+      
